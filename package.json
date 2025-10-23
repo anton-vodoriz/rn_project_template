@@ -1,0 +1,17 @@
+{
+  "name": "rn_project_template",
+  "version": "1.0.0",
+  "description": "Custom React Native template with TypeScript, ESLint, and base folder structure",
+  "keywords": [
+    "react-native",
+    "template",
+    "typescript",
+    "eslint"
+  ],
+  "main": "template.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourname/react-native-template-mytemplate"
+  },
+  "license": "MIT"
+}
