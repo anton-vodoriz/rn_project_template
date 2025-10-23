@@ -1,5 +1,5 @@
 export const STORAGE_KEYS = {
   AUTH: 'auth-storage',
-  TRANSLATION: 'translation-storage',
+  LOCALIZATION: 'localization-storage',
   THEME: 'theme-storage',
 } as const;
