@@ -8,7 +8,7 @@ type TParams =
   | [key: AppTranslationKeys, defaultValue: string]
   | [key: AppTranslationKeys, defaultValue: string, options: TOptions];
 
-export function useAppTranslation() {
+export function useAppLocalization() {
   const { t, i18n } = useBaseTranslation();
   function translate(...args: TParams): string {
     // same cast rationale as above

@@ -1,6 +1,6 @@
 import { useThemeStore } from '@app/store/theme.store';
 
-export const useTheme = () => {
+export const useAppTheme = () => {
   const theme = useThemeStore((state) => state.theme);
   return theme;
 };
