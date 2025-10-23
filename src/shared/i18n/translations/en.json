@@ -1,9 +1,10 @@
 {
   "home": {
-    "welcome": "Welcome"
+    "welcome": "Welcome home"
   },
   "buttons": {
     "save": "Save",
     "cancel": "Cancel"
-  }
+  },
+  "welcome": "Welcome"
 }

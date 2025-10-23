@@ -1,13 +1,14 @@
 import en from './translations/en.json';
 
-/**
- * Recursively flattens nested JSON keys into dot notation
- * Example: { home: { welcome: "Hi" } } => "home.welcome"
- */
-type NestedKeys<T> = {
-  [K in keyof T & (string | number)]: T[K] extends Record<string, any>
-    ? `${K}` | `${K}.${NestedKeys<T[K]>}`
-    : `${K}`;
-}[keyof T & (string | number)];
+/** Deep key union: { home: { welcome: "x" } } -> "home" | "home.welcome" */
+type FlattenObjectKeys<
+  T extends Record<string, any>,
+  Key = keyof T,
+> = Key extends string
+  ? T[Key] extends Record<string, any>
+    ? `${Key}.${FlattenObjectKeys<T[Key]>}`
+    : `${Key}`
+  : never;
 
-export type AppTranslationKeys = NestedKeys<typeof en>;
+export type AppTranslationSchema = typeof en; // shape of one locale file
+export type AppTranslationKeys = FlattenObjectKeys<typeof en>; // "home" | "home.welcome" | ...

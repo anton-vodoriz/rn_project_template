@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.your_company.__APP_NAME__"
+      "bundleIdentifier": "com.company.__APP_NAME__"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +23,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.your_company.__APP_NAME__"
+      "package": "com.company.__APP_NAME__"
     },
     "web": {
       "favicon": "./assets/favicon.png"

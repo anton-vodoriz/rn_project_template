@@ -1,7 +1,5 @@
-import { SUPPORTED_LANGUAGES, SupportedLanguage } from './languages';
+import { SUPPORTED_LOCALES, Locale } from './languages';
 
-export const isSupportedLanguage = (
-  lang: string,
-): lang is SupportedLanguage => {
-  return SUPPORTED_LANGUAGES.includes(lang as SupportedLanguage);
+export const isSupportedLanguage = (lang: string): lang is Locale => {
+  return SUPPORTED_LOCALES.includes(lang as Locale);
 };
