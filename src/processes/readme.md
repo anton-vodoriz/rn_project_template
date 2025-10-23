@@ -4,11 +4,13 @@ The `processes/` layer manages **cross-feature workflows** that connect multiple
 
 ## Structure
 
+```bash
 processes/
 ┣ auth-flow/
 ┃ ┣ hooks/
 ┃ ┣ components/
 ┃ ┗ index.ts
+```
 
 ## Examples
 

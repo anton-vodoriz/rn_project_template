@@ -5,11 +5,13 @@ Each entity defines the core data types, API, and state management that can be r
 
 ## Structure
 
+```bash
 entities/
 ┣ user/
 ┃ ┣ api/
 ┃ ┣ store/
 ┃ ┗ types/
+```
 
 ## Responsibilities
 

@@ -19,6 +19,7 @@
 
 ## 📁 Folder Structure
 
+```bash
 src/
 ┣ app/ # Core app setup: navigation, providers, config, global store
 ┣ processes/ # Cross-feature flows (auth, onboarding, etc.)
@@ -27,6 +28,7 @@ src/
 ┣ widgets/ # Reusable UI blocks composed of features/entities
 ┣ shared/ # Shared utilities, theme, hooks, UI, etc.
 ┗ assets/ # Static assets (fonts, icons, images)
+```
 
 ## 🧩 Principles
 
@@ -48,19 +50,22 @@ npx expo run:android
 
 ## 💡 Git guidelines
 
-- **Branch**
+**Branch**
+```bash
 | Branch type         | Responsibilities                   | Example                |
 | ------------------- | ---------------------------------- | ---------------------- |
 | `feat/<feature>`    | New functionality                  | `feat/user-list`       |
 | `fix/<bug>`         | Bug fixes                          | `fix/user-item-style`  |
 | `chore/<task>`      | Setup, packages update             | `chore/setup-husky`    |
 | `refactor/<module>` | Refactoring without new features   | `refactor/home-screen` |
+```
 
-- **Commit**
+**Commit**
+```bash
 | Commit type               | Responsibilities                   | Example                                 |
 | ------------------------- | ---------------------------------- | --------------------------------------- |
 | `feat: <description>`     | New functionality                  | `feat: add user list screen`            |
 | `fix: <description>`      | Bug fixes                          | `fix: correct text style in user item`  |
 | `chore: <description>`    | Setup, packages update             | `chore: setup husky and lint-staged`    |
 | `refactor: <description>` | Refactoring without new features   | `refactor: rename styles constants`     |
-
+```

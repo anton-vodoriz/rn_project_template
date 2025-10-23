@@ -4,6 +4,7 @@ The `shared/` folder holds **common utilities**, **UI components**, and **global
 
 ## Structure
 
+```bash
 shared/
 ┣ components/ # Reusable UI elements (Button, Input)
 ┣ constants/ # App constants (storage keys, enums)
@@ -14,6 +15,7 @@ shared/
 ┣ types/ # Shared TypeScript definitions
 ┣ ui/ # More complex reusable UI blocks
 ┗ utils/ # Helper functions and pure utilities
+```
 
 ## Responsibilities
 

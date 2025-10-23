@@ -4,11 +4,13 @@ The `widgets/` layer are **reusable UI blocks** that can combine multiple featur
 
 ## Structure
 
+```bash
 widgets/
 ┣ user-profile-card/
 ┃ ┣ components/
 ┃ ┣ hooks/
 ┃ ┗ index.ts
+```
 
 ## Guidelines
 

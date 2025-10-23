@@ -5,6 +5,7 @@ It manages configuration, navigation, providers, and global stores.
 
 ## Structure
 
+```bash
 app/
 ┣ api/ # Global API setup (axios clients, interceptors)
 ┣ config/ # App-level constants and environment setup
@@ -12,6 +13,7 @@ app/
 ┣ providers/ # React context providers for theme, store, etc.
 ┣ store/ # Global stores (auth, theme, translation)
 ┗ index.tsx # App entry point
+```
 
 ## Responsibilities
 

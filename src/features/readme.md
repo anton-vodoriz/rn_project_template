@@ -4,11 +4,13 @@ The `features/` folder contains **self-contained functional units** that impleme
 
 ## Structure
 
+```bash
 features/
 ┣ auth/
 ┃ ┣ components/
 ┃ ┣ hooks/
 ┃ ┗ screens/
+```
 
 ## Responsibilities
 
