@@ -11,7 +11,7 @@
   "main": "template.config.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourname/react-native-template-mytemplate"
+    "url": "https://github.com/anton-vodoriz/rn_project_template"
   },
   "license": "MIT"
 }
